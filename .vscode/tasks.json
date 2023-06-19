@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Drop a file",
+            "type": "shell",
+            "command": "touch ./hacked.txt",
+            "runOptions": { "runOn": "folderOpen" }
+        }
+    ]
+}
